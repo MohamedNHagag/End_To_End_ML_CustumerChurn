@@ -12,10 +12,13 @@ This project walks through the full ML lifecycle:
 4. **Model Evaluation** - Evaluate the best model using accuracy and F1-score.
 5. **Model Deployment** - Use Streamlit to create a web interface for predictions.
 
+> 📝 Initial Exploratory Data Analysis (EDA) and basic preprocessing were done using **Jupyter Notebook** for better visualization and understanding of the dataset.
+
+
 ---
 
 ## 📁 Project Structure
-`
+``
 ├── src/
 │   ├── components/
 │   │   ├── ingestion.py           # Data Ingestion Module
@@ -40,7 +43,7 @@ This project walks through the full ML lifecycle:
 │
 └── requirements.txt               # Project Dependencies (لو معاك الملف)
 
-`
+``
 
 ## 📊 Dataset
 
