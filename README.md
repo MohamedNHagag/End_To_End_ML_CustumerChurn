@@ -18,7 +18,7 @@ This project walks through the full ML lifecycle:
 ---
 
 ## 📁 Project Structure
-``
+```
 ├── src/
 │   ├── components/
 │   │   ├── ingestion.py           # Data Ingestion Module
@@ -43,7 +43,7 @@ This project walks through the full ML lifecycle:
 │
 └── requirements.txt               # Project Dependencies (لو معاك الملف)
 
-``
+```
 
 ## 📊 Dataset
 
