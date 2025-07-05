@@ -22,7 +22,7 @@ This project walks through the full ML lifecycle:
 ├── src/
 │   ├── components/
 │   │   ├── ingestion.py           # Data Ingestion Module
-│   │   ├── transformation.py      # Data Transformation Module (عدلت اسم الملف)
+│   │   ├── transformation.py      # Data Transformation Module 
 │   │   ├── trainer.py             # Model Trainer Module
 │   │   ├── evaluate.py            # Model Evaluation Module
 │   │   └── utils.py               # Utility Functions (save/load objects)
@@ -41,7 +41,7 @@ This project walks through the full ML lifecycle:
 │
 ├── README.md                      # Project Documentation
 │
-└── requirements.txt               # Project Dependencies (لو معاك الملف)
+└── requirements.txt               # Project Dependencies 
 
 ```
 
