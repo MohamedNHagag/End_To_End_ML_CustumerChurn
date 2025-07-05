@@ -15,6 +15,7 @@ This project walks through the full ML lifecycle:
 ---
 
 ## 📁 Project Structure
+`
 .
 ├── src/
 │ ├── components/
@@ -30,7 +31,7 @@ This project walks through the full ML lifecycle:
 ├── app.py (Main execution script)
 ├── streamlit_app.py (Streamlit UI for prediction)
 ├── README.md
-
+`
 
 ## 📊 Dataset
 
