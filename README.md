@@ -16,21 +16,30 @@ This project walks through the full ML lifecycle:
 
 ## 📁 Project Structure
 `
-.
 ├── src/
-│ ├── components/
-│ │ ├── ingestion.py
-│ │ ├── trainsformation.py
-│ │ ├── trainer.py
-│ │ ├── evaluate.py
-│ │ └── utils.py
-│ ├── exception.py
-│ ├── logger.py
-├── artifacts/ (contains trained models and preprocessors)
-├── logs/ (log files)
-├── app.py (Main execution script)
-├── streamlit_app.py (Streamlit UI for prediction)
-├── README.md
+│   ├── components/
+│   │   ├── ingestion.py           # Data Ingestion Module
+│   │   ├── transformation.py      # Data Transformation Module (عدلت اسم الملف)
+│   │   ├── trainer.py             # Model Trainer Module
+│   │   ├── evaluate.py            # Model Evaluation Module
+│   │   └── utils.py               # Utility Functions (save/load objects)
+│   ├── exception.py               # Custom Exception Handling
+│   ├── logger.py                  # Logging Configuration
+│
+├── artifacts/                     # Saved Models & Preprocessors
+│   └── (model.pkl, processor.pkl, etc.)
+│
+├── logs/                          # Log Files
+│   └── (log files)
+│
+├── app.py                         # Main Execution Script (Training Pipeline)
+│
+├── streamlit_app.py               # Streamlit App for Prediction
+│
+├── README.md                      # Project Documentation
+│
+└── requirements.txt               # Project Dependencies (لو معاك الملف)
+
 `
 
 ## 📊 Dataset
