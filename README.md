@@ -1,6 +1,6 @@
-# 🧠 Parkinson's Disease Prediction - End-to-End ML Project
+# 📦 Customer Churn Prediction - End-to-End ML Project
 
-This is a complete End-to-End Machine Learning project that predicts whether a person has Parkinson's Disease based on biomedical voice measurements.
+This project demonstrates a complete End-to-End Machine Learning pipeline to predict whether a customer will churn (leave the service) based on demographic, account, and service usage data.
 
 ## 🚀 Project Overview
 
@@ -50,8 +50,8 @@ This project walks through the full ML lifecycle:
 - Source: UCI Parkinson's Dataset
 - Path: `NoteBook/Dataset/parkinsons.data`
 - Target Column: `status`  
-  - `1`: Parkinson’s disease  
-  - `0`: Healthy
+  - Yes → Customer will churn 
+  - No → Customer will stay
 
 ---
 
